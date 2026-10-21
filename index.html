@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>대한민국 중소벤처기업부 (MSS) - 국민과 함께하는 디지털·혁신 동반자</title>
+  
+  <!-- CSS 스타일시트 (상대경로로 더블클릭 file:// 실행 완벽 지원) -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- 상단 정부 안내 바 -->
+  <aside class="top-notice-bar" aria-label="대한민국 공식 정책 정보 안내">
+    <div class="container">
+      <div class="official-badge">
+        <span>🇰🇷</span>
+        <span>대한민국 정부 공식 포털 연계 | 중소벤처기업부 대국민 정책 안내 서비스</span>
+      </div>
+      <div>
+        <span>중소기업 통합 콜센터 ☎ <strong>1357</strong> (무료)</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- 메인 헤더 & 네비게이션 -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="brand" title="중소벤처기업부 홈">
+        <div class="brand-emblem" aria-hidden="true">중</div>
+        <div class="brand-text">
+          <h1>중소벤처기업부</h1>
+          <span>Ministry of SMEs and Startups</span>
+        </div>
+      </a>
+
+      <nav aria-label="메인 메뉴">
+        <ul class="nav-menu">
+          <li><a href="#survey" class="nav-link" style="color: var(--c-orange); font-weight: 800;">도움 자가진단 ✨</a></li>
+          <li><a href="#about" class="nav-link">기관 소개</a></li>
+          <li><a href="#missions" class="nav-link">4대 핵심 업무</a></li>
+          <li><a href="#trends" class="nav-link">2026 동향</a></li>
+          <li><a href="#news" class="nav-link">최신 뉴스</a></li>
+          <li><a href="#finder" class="nav-link">간편 시뮬레이터</a></li>
+          <li><a href="#glossary" class="nav-link">쉬운 용어</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <!-- 다크/라이트 모드 토글 -->
+        <button id="themeToggleBtn" class="theme-toggle-btn" title="화면 테마 변경" aria-label="다크 모드 또는 라이트 모드 전환">
+          🌙
+        </button>
+        <a href="https://www.mss.go.kr" target="_blank" rel="noopener noreferrer" class="btn-primary" title="중소벤처기업부 공식 누리집 새 창 열기">
+          <span>공식 누리집 ↗</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 메인 히어로 섹션 -->
+  <section class="hero-section" id="about">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-tag">
+        <span>✨ 770만 중소·벤처·소상공인의 든든한 동반자</span>
+      </div>
+      <h2 class="hero-title">
+        대한민국 경제의 힘찬 도약,<br>
+        <span>중소벤처기업</span>이 열어갑니다!
+      </h2>
+      <p class="hero-desc">
+        골목상권 소상공인의 든든한 버팀목부터 세계를 무대로 뛰는 혁신 벤처·스타트업까지,<br>
+        국민 모두가 체감하는 따뜻한 온기와 혁신 성장을 함께 만들어갑니다.
+      </p>
+      <div class="hero-cta-group">
+        <a href="#survey" class="btn-hero-main">
+          💡 나는 어떤 도움을 받을 수 있을까? (자가진단 설문)
+        </a>
+        <a href="#missions" class="btn-hero-sub">4대 핵심 업무 둘러보기 🏢</a>
+        <a href="#news" class="btn-hero-sub">최신 정책 & 뉴스 📰</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 핵심 인포그래픽 통계 바 (다채로운 4색 테마) -->
+  <section class="container stats-section" aria-label="중소벤처기업 핵심 지표">
+    <div class="stats-grid">
+      <div class="stat-card stat-theme-orange">
+        <div class="stat-icon-wrapper icon-orange">🏢</div>
+        <div class="stat-value">99.9%</div>
+        <div class="stat-label">대한민국 중소기업 비중</div>
+        <div class="stat-desc">전체 사업체 중 중소기업·소상공인 비율</div>
+      </div>
+      <div class="stat-card stat-theme-emerald">
+        <div class="stat-icon-wrapper icon-emerald">👥</div>
+        <div class="stat-value">81.3%</div>
+        <div class="stat-label">국민 일자리 비중</div>
+        <div class="stat-desc">전체 취업자 중 중소기업 종사자 비율</div>
+      </div>
+      <div class="stat-card stat-theme-purple">
+        <div class="stat-icon-wrapper icon-purple">💰</div>
+        <div class="stat-value">16조 5천억+</div>
+        <div class="stat-label">2026 정부 예산 규모</div>
+        <div class="stat-desc">R&D, 소상공인 회복, AI 대전환 집중 투자</div>
+      </div>
+      <div class="stat-card stat-theme-rose">
+        <div class="stat-icon-wrapper icon-rose">🚀</div>
+        <div class="stat-value">11조원+</div>
+        <div class="stat-label">누적 벤처투자 규모</div>
+        <div class="stat-desc">세계 4대 벤처강국을 향한 벤처투자 생태계</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- [신규 기능] 국민 체감 자가진단: 나는 이 기관으로부터 어떤 도움을 받을 수 있을까? -->
+  <section class="section survey-section" id="survey">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" style="background: var(--c-purple-light); color: var(--c-purple);">Self Diagnosis Checklist</span>
+        <h2 class="section-title">"나는 중소벤처기업부로부터 어떤 도움을 받을 수 있을까?"</h2>
+        <p class="section-subtitle">
+          현재 겪고 계신 사업·일상의 고민이나 희망 사항을 체크해 보세요.<br>
+          대한민국 중소벤처기업부의 맞춤 지원 솔루션과 공식 신청처를 한눈에 즉시 진단해 드립니다.
+        </p>
+      </div>
+
+      <div class="survey-box">
+        <!-- 상단 툴바 (카테고리 탭 & 카운터 & 액션) -->
+        <div class="survey-toolbar">
+          <div class="survey-tabs" id="surveyCategoryTabs">
+            <button type="button" class="survey-tab active" data-cat="all">전체 고민 (12)</button>
+            <button type="button" class="survey-tab" data-cat="startup">💡 창업·청년</button>
+            <button type="button" class="survey-tab" data-cat="smallbiz">🏪 소상공인·골목</button>
+            <button type="button" class="survey-tab" data-cat="sme">⚙️ 중소제조·R&D</button>
+            <button type="button" class="survey-tab" data-cat="coexist">🤝 상생·기술보호</button>
+          </div>
+
+          <div class="survey-actions">
+            <span class="survey-count-badge" id="surveySelectedCountBadge">선택된 고민: 0개</span>
+            <button type="button" class="btn-text-action" id="surveySelectAllBtn">전체 선택</button>
+            <button type="button" class="btn-text-action" id="surveyResetBtn">초기화</button>
+          </div>
+        </div>
+
+        <!-- 설문 체크리스트 그리드 -->
+        <div class="checklist-grid" id="checklistContainer">
+          <!-- js/app.js에서 checklistQuestions 기반 동적 렌더링 -->
+        </div>
+
+        <!-- 진단 버튼 -->
+        <div class="survey-submit-bar">
+          <button type="button" class="btn-survey-submit" id="surveyDiagnoseBtn">
+            <span>🔍 나의 맞춤 지원 솔루션 진단하기</span>
+            <span class="btn-arrow">→</span>
+          </button>
+        </div>
+
+        <!-- 진단 결과 리포트 출력 영역 -->
+        <div class="survey-result-wrapper" id="surveyResultWrapper" style="display: none;">
+          <div class="result-report-header">
+            <div class="report-title-group">
+              <span class="report-badge">📋 국민 맞춤 진단 결과서</span>
+              <h3 class="report-main-title" id="reportTitle">총 0건의 맞춤 지원 솔루션이 매칭되었습니다!</h3>
+              <p class="report-subtitle">중소벤처기업부 및 전담 공공기관을 통해 바로 신청하거나 상담받으실 수 있습니다.</p>
+            </div>
+            <div class="report-header-buttons">
+              <button type="button" class="btn-outline-sm" id="copyResultBtn">📋 진단 결과 복사</button>
+              <button type="button" class="btn-outline-sm" id="printResultBtn">🖨️ 결과 인쇄 / PDF</button>
+            </div>
+          </div>
+
+          <!-- 매칭된 지원사업 카드 목록 -->
+          <div class="matched-solutions-list" id="matchedSolutionsList">
+            <!-- 동적 렌더링 -->
+          </div>
+
+          <!-- 통합 문의처 안내 배너 -->
+          <div class="survey-call-banner">
+            <div class="banner-left">
+              <span class="banner-icon">☎️</span>
+              <div>
+                <strong>신청 방법이나 상세 자격 조건이 궁금하신가요?</strong>
+                <p>중소기업 통합 콜센터 <strong>1357</strong> (평일 09:00~18:00, 통화료 무료)로 전화하시면 전문 상담사가 친절히 1:1로 안내해 드립니다.</p>
+              </div>
+            </div>
+            <a href="https://www.smes.go.kr" target="_blank" rel="noopener noreferrer" class="btn-banner-link">
+              중소벤처24 바로가기 ↗
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 1. 4대 핵심 업무 섹션 -->
+  <section class="section" id="missions">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" style="background: var(--c-orange-light); color: var(--c-orange);">Key Missions</span>
+        <h2 class="section-title">국민과 기업을 위한 4대 핵심 업무</h2>
+        <p class="section-subtitle">
+          중소벤처기업부는 소상공인의 민생 안정부터 혁신 벤처 육성, 스마트 제조혁신, 상생 경제까지 촘촘한 정책망을 가동하고 있습니다.
+        </p>
+      </div>
+
+      <div class="missions-grid" id="missionsContainer">
+        <!-- js/app.js에서 동적 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 2. 2026 최신 정책 동향 섹션 -->
+  <section class="section" id="trends" style="background: var(--bg-main);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" style="background: var(--c-emerald-light); color: var(--c-emerald);">Policy Trends 2026</span>
+        <h2 class="section-title">2026 중점 추진 정책 & 패러다임 동향</h2>
+        <p class="section-subtitle">
+          복합 경제위기를 넘어 '성장 전환의 해'로 도약하기 위한 중소벤처기업부의 최신 핵심 정책 방향입니다.
+        </p>
+      </div>
+
+      <div class="trends-container">
+        <div class="trends-grid" id="trendsContainer">
+          <!-- js/app.js에서 동적 렌더링 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. 최신 뉴스 기사 및 보도자료 피드 섹션 (핵심 요구사항 4번) -->
+  <section class="section" id="news">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" style="background: var(--c-cyan-light); color: var(--c-cyan);">Latest News & Press</span>
+        <h2 class="section-title">중소벤처기업 최신 언론 보도 & 보도자료</h2>
+        <p class="section-subtitle">
+          실제 언론사와 정부 정책브리핑에서 보도된 최신 소식과 정책 성과를 확인하세요. 각 기사의 원문 링크를 통해 상세 정보를 볼 수 있습니다.
+        </p>
+      </div>
+
+      <!-- 뉴스 카테고리 필터 & 실시간 검색 바 -->
+      <div class="news-filter-bar">
+        <div class="news-filter-tabs" id="newsFilterTabs">
+          <button class="filter-tab active" data-category="all">전체 소식 (8)</button>
+          <button class="filter-tab" data-category="소상공인">소상공인·상권</button>
+          <button class="filter-tab" data-category="창업·벤처">창업·벤처</button>
+          <button class="filter-tab" data-category="R&D">R&D·예산</button>
+          <button class="filter-tab" data-category="상생">상생·행정</button>
+          <button class="filter-tab" data-category="수출">수출·글로벌</button>
+        </div>
+
+        <div class="news-search-box">
+          <span class="news-search-icon" aria-hidden="true">🔍</span>
+          <input type="text" id="newsSearchInput" class="news-search-input" placeholder="기사 제목 또는 키워드 검색...">
+        </div>
+      </div>
+
+      <!-- 뉴스 카드 그리드 -->
+      <div class="news-grid" id="newsGrid">
+        <!-- js/app.js에서 동적 렌더링 (실제 URL 포함) -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 국민 맞춤 정책 시뮬레이터 섹션 -->
+  <section class="section" id="finder" style="background: var(--bg-main);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" style="background: var(--c-purple-light); color: var(--c-purple);">Policy Finder</span>
+        <h2 class="section-title">국민 맞춤 정책 시뮬레이터</h2>
+        <p class="section-subtitle">
+          "복잡한 정책, 나에게 꼭 필요한 것은 무엇일까?" 내 상황과 필요에 맞는 지원사업을 단 2번의 클릭으로 찾아보세요.
+        </p>
+      </div>
+
+      <div class="finder-wrapper">
+        <div class="finder-steps">
+          <!-- Step 1: 신분/상황 -->
+          <div>
+            <h3 class="finder-step-title">1단계: 현재 귀하의 상황은 무엇인가요?</h3>
+            <div class="finder-options-grid" id="roleOptions">
+              <button class="finder-option-btn selected" data-group="role" data-key="startup_prep">
+                <span class="option-icon">🌱</span>
+                <span class="option-text">아이디어가 있는<br><strong>예비창업자 / 청년</strong></span>
+              </button>
+              <button class="finder-option-btn" data-group="role" data-key="small_business">
+                <span class="option-icon">🏪</span>
+                <span class="option-text">골목에서 가게를 운영하는<br><strong>소상공인 / 자영업자</strong></span>
+              </button>
+              <button class="finder-option-btn" data-group="role" data-key="tech_startup">
+                <span class="option-icon">🚀</span>
+                <span class="option-text">도약을 준비하는<br><strong>기술 스타트업 / 벤처</strong></span>
+              </button>
+              <button class="finder-option-btn" data-group="role" data-key="sme_mfg">
+                <span class="option-icon">🏗️</span>
+                <span class="option-text">제조 및 스케일업<br><strong>도약 중소기업</strong></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: 필요 지원 -->
+          <div>
+            <h3 class="finder-step-title">2단계: 지금 가장 필요한 도움이 무엇인가요?</h3>
+            <div class="finder-options-grid" id="needOptions">
+              <button class="finder-option-btn selected" data-group="need" data-key="funding">
+                <span class="option-icon">💰</span>
+                <span class="option-text">저금리 대출 & 투자<br><strong>자금 지원</strong></span>
+              </button>
+              <button class="finder-option-btn" data-group="need" data-key="market">
+                <span class="option-icon">🌐</span>
+                <span class="option-text">온·오프라인 판로 &<br><strong>해외 수출 바우처</strong></span>
+              </button>
+              <button class="finder-option-btn" data-group="need" data-key="tech">
+                <span class="option-icon">🔬</span>
+                <span class="option-text">스마트공장 & R&D<br><strong>기술 혁신 지원</strong></span>
+              </button>
+              <button class="finder-option-btn" data-group="need" data-key="recovery">
+                <span class="option-icon">🤝</span>
+                <span class="option-text">채무조정 & 폐업재기<br><strong>재도전 / 공정 상생</strong></span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- 결과 출력 영역 -->
+        <div id="finderResultContainer">
+          <!-- js/app.js에서 동적 렌더링 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 알기 쉬운 정책 용어사전 섹션 -->
+  <section class="section" id="glossary">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" style="background: var(--c-amber-light); color: var(--c-amber);">Easy Dictionary</span>
+        <h2 class="section-title">알기 쉬운 정책 용어사전</h2>
+        <p class="section-subtitle">
+          뉴스에 자주 나오지만 헷갈렸던 정부 정책 용어들, 국민의 눈높이에 맞춰 친절하게 풀어드립니다.
+        </p>
+      </div>
+
+      <div class="glossary-grid" id="glossaryGrid">
+        <!-- js/app.js에서 동적 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. 주요 공식 지원 포털 바로가기 -->
+  <section class="section" style="background: var(--bg-main);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge" style="background: var(--c-rose-light); color: var(--c-rose);">Official Services</span>
+        <h2 class="section-title">대한민국 중소벤처 공식 포털 바로가기</h2>
+        <p class="section-subtitle">
+          중소벤처기업부와 산하 유관기관의 대표 원스톱 서비스를 확인하세요.
+        </p>
+      </div>
+
+      <div class="portals-grid" id="portalsGrid">
+        <!-- js/app.js에서 동적 렌더링 -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 (Footer) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h2>중소벤처기업부</h2>
+          <p class="footer-desc">
+            대한민국 770만 중소·벤처기업과 소상공인이 경제의 당당한 주역으로 우뚝 설 수 있도록 언제나 곁에서 든든하게 함께하겠습니다.
+          </p>
+          <div class="footer-contact-item">
+            <span>📍</span>
+            <span>본부: 세종특별자치시 가름로 180 (어진동, 세종파이낸스센터)</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>📞</span>
+            <span>중소기업 통합상담 콜센터: <strong>1357</strong> (평일 09:00 ~ 18:00)</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h3>주요 지원 서비스</h3>
+          <ul class="footer-links">
+            <li><a href="https://www.bizinfo.go.kr" target="_blank" rel="noopener noreferrer">기업마당 (지원사업 공고) ↗</a></li>
+            <li><a href="https://www.k-startup.go.kr" target="_blank" rel="noopener noreferrer">K-Startup 창업포털 ↗</a></li>
+            <li><a href="https://www.sbiz.or.kr" target="_blank" rel="noopener noreferrer">소상공인마당 ↗</a></li>
+            <li><a href="https://www.smes.go.kr" target="_blank" rel="noopener noreferrer">중소벤처24 통합플랫폼 ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>기관 정책 정보</h3>
+          <ul class="footer-links">
+            <li><a href="https://www.mss.go.kr" target="_blank" rel="noopener noreferrer">중소벤처기업부 공식 누리집 ↗</a></li>
+            <li><a href="https://www.korea.kr" target="_blank" rel="noopener noreferrer">대한민국 정책브리핑 ↗</a></li>
+            <li><a href="https://www.exportvoucher.com" target="_blank" rel="noopener noreferrer">수출지원기반활용사업 ↗</a></li>
+            <li><a href="https://smart-factory.kr" target="_blank" rel="noopener noreferrer">스마트제조혁신추진단 ↗</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          <span>© 2026 Ministry of SMEs and Startups. 대한민국 중소벤처기업 정책 대국민 안내 포털</span>
+        </div>
+        <div>
+          <span>본 웹 앱은 별도의 서버 설치 없이 <code>index.html</code> 더블클릭으로 즉시 실행됩니다.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 자바스크립트 파일 로드 (모듈이 아닌 일반 script 태그로 로드하여 file:// 로컬 실행 시 CORS 오류 완벽 방지) -->
+  <script src="./js/data.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
